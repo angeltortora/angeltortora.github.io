@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: 'Source Code Pro', monospace;;
+    --ff-secondary: 'Ubuntu', sans-serif;
+
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+    --clr-light: #FFF;
+    --clr-dark: #141824;
+    --clr-alt: #fff48e;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+@media (max-width: 800px) {
+    img#ghPIC {
+        max-width: 200px;
+    }
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color:black;
+}
+
+
+/* General */
+
+body {
+    background: var(--clr-dark);
+    background-image: url(/imgs/bgImg.jpg);
+    color: var(--clr-light);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* Text */
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+.title__name {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title__sub {
+    margin: 0;
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+    position: relative;
+}
+
+section {
+    padding: 2em 2em;
+}
+
+.title {
+    margin-top: 12em;
+}
+
+.media {
+    background: black;
+    padding: .1em;
+}
+
+img.logo {
+    max-width: 100%;
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+/* Nav */
+
+#IG,
+#GH {
+    max-width: 50px;
+    margin-left: 0.5em;
+    padding: 0em;
+    transition: all 200ms;
+    float: right;
+    padding-top: 15px;
+}
+
+#IG:hover,
+#GH:hover {
+    transform: scale(1.1);
+}
+
+button {
+    font-family: 'Source Code Pro', monospace;
+    border: 0px;
+    border-radius: 5px;
+    transition: all 200ms;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: var(--fs-h3);
+}
+
+button:hover {
+    background-color:black;
+    transform: scale(1.1);
+    border: 10px white;
+}
+
+#aboutlink:hover, #portlink:hover, #musiclink:hover {
+    color: var(--clr-light);
+}
+
+
+/* Content */
+.pic {
+    overflow-x: hidden;
+}
+
+img#ghPIC {
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.signature {
+    text-align: center;
+}
+
+img#IG {
+    position: relative;
+    margin-right: .5em;
+}
+
+
+/* About */
+
+.about__body {
+    background:rgb(116, 33, 33);
+}
