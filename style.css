@@ -39,6 +39,20 @@
     }
 }
 
+@media (max-width: 450px) {
+    button {
+        margin: 0;
+        padding: 10;
+        min-height: 10px;
+        padding-bottom: 7px;
+    }
+    button a {
+        font-size: 0.5em;
+        font-weight: bold;
+    }
+}
+
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color:black;
@@ -175,5 +189,5 @@ img#IG {
 /* About */
 
 .about__body {
-    background:rgb(116, 33, 33);
+    background:rgb(3, 8, 22);
 }
