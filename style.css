@@ -209,10 +209,6 @@ img#IG {
     color: white;
 }
 
-.bio2 ul i {
-    font-size: 12px;
-}
-
 .bio2 h2 {
     margin-left: 4.8em;
     margin-right: 4.8em;
@@ -260,11 +256,7 @@ img#IG {
         margin-left: 8em;
         margin-right: 8em;
     }
-    
-    .bio2 ul i {
-        font-size: 12px;
-    }
-    
+
     .bio2 h2 {
         margin-left: 2.4em;
         margin-right: 4.8em;
@@ -301,10 +293,6 @@ img#IG {
         background-color: var(--clr-dark);
         margin-left: 6em;
         margin-right: 6em;
-    }
-    
-    .bio2 ul i {
-        font-size: 12px;
     }
     
     .bio2 h2 {
@@ -345,10 +333,6 @@ img#IG {
         margin-right: 1.8em;
     }
     
-    .bio2 ul i {
-        font-size: 12px;
-    }
-    
     .bio2 h2 {
         margin-left: 0.7em;
         margin-right: 2em;
@@ -360,7 +344,7 @@ img#IG {
     }
     
     .bio2 ul {
-        margin-left: 2em;
+        margin-left: 1.8em;
         margin-right: 2em;
     }
 
