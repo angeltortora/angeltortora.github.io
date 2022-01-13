@@ -37,6 +37,8 @@
     img#ghPIC {
         max-width: 200px;
     }
+
+
 }
 
 @media (max-width: 450px) {
@@ -190,4 +192,139 @@ img#IG {
 
 .about__body {
     background:rgb(3, 8, 22);
+}
+
+.bio h1 {
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.bio__desc {
+    background-color: var(--clr-dark);
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+#listlink {
+    color: white;
+}
+
+.bio2 ul i {
+    font-size: 12px;
+}
+
+.bio2 h2 {
+    margin-left: 4.8em;
+    margin-right: 4.8em;
+}
+
+.bio__desc2 {
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+.bio2 ul {
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+@media (max-width: 1080px) {
+    .bio h1 {
+        margin-left: 2em;
+        margin-top: 0.5em;
+    }
+    
+    .bio__desc {
+        background-color: var(--clr-dark);
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+    
+    .bio2 ul i {
+        font-size: 12px;
+    }
+    
+    .bio2 h2 {
+        margin-left: 2.4em;
+        margin-right: 4.8em;
+    }
+    
+    .bio__desc2 {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+    
+    .bio2 ul {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+@media (max-width: 800px) {
+    .bio h1 {
+        margin-left: 2em;
+        margin-top: 0.5em;
+    }
+    
+    .bio__desc {
+        background-color: var(--clr-dark);
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    
+    .bio2 ul i {
+        font-size: 12px;
+    }
+    
+    .bio2 h2 {
+        margin-left: 2.4em;
+        margin-right: 4.8em;
+    }
+    
+    .bio__desc2 {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+    
+    .bio2 ul {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+}
+
+@media (max-width: 500px) {
+    .bio h1 {
+        margin-left: 0.5em;
+        margin-top: 0.2em;
+    }
+    
+    .bio__desc {
+        background-color: var(--clr-dark);
+        margin-left: 1.5em;
+        margin-right: 1.8em;
+    }
+    
+    .bio2 ul i {
+        font-size: 12px;
+    }
+    
+    .bio2 h2 {
+        margin-left: 0.7em;
+        margin-right: 2em;
+    }
+    
+    .bio__desc2 {
+        margin-left: 1.7em;
+        margin-right: 2em;
+    }
+    
+    .bio2 ul {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+.facts h3 {
+    margin-left: 11.8em;
+    margin-right: 11.8em;
 }
