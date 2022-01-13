@@ -227,6 +227,7 @@ img#IG {
     margin-left: 16em;
     margin-right: 16em;
     background-color: var(--clr-dark);
+    border: 2px dotted white;
 }
 
 .facts h3 {
