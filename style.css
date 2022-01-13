@@ -240,6 +240,10 @@ img#IG {
     border: 2px dotted white;
 }
 
+#email {
+    color:white;
+}
+
 .facts h3 {
     margin-left: 11.8em;
     margin-right: 11.8em;
