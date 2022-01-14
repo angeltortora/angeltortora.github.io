@@ -105,7 +105,7 @@ section {
 }
 
 .media {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.2);
     padding: .1em;
 }
 
@@ -142,10 +142,13 @@ img.logo {
     border: 2px solid white;
     border-radius: 5px;
     padding: 2px 5px;
+    transition: 200ms all;
 }
 
 #aboutlink:hover, #portlink:hover, #musiclink:hover {
     color: lightblue;
+    border: 5px solid lightblue;
+    font-weight: bold;
 }
 
 @media (max-width: 800px) {
@@ -162,16 +165,6 @@ img.logo {
     }
 }
 
-@media (max-width: 360px) {
-    #aboutlink, #portlink, #musiclink {
-        font-size: 15px;
-        border: 1px solid white;
-        border-radius: 5px;
-        padding: 2px 5px;
-        margin-left: -8px;
-        margin-right: -8px;
-    }
-}
 /* Content */
 .pic {
     overflow-x: hidden;
@@ -196,6 +189,16 @@ img#IG {
 
 
 /* About */
+
+.menubar {
+    text-align: center;
+    margin: -3.5em;
+    margin-bottom: 3.5em;
+}
+
+.menubar a {
+    color: white;
+}
 
 .about__body {
     background:rgb(3, 8, 22);
@@ -258,6 +261,22 @@ img#IG {
     color: blue;
 }
 
+#aboutlink2, #portlink2, #musiclink2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    transition: 200ms all;
+}
+
+#aboutlink2:hover, #portlink2:hover, #musiclink2:hover {
+    color: lightblue;
+    border: 5px solid lightblue;
+    font-weight: bold;
+}
+
 @media (max-width: 1080px) {
     .bio h1 {
         margin-left: 2em;
@@ -297,6 +316,13 @@ img#IG {
 }
 
 @media (max-width: 800px) {
+    #aboutlink2, #portlink2, #musiclink2 {
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
     .bio h1 {
         margin-left: 2em;
         margin-top: 0.5em;
@@ -334,7 +360,20 @@ img#IG {
     }
 }
 
+
 @media (max-width: 500px) {
+    #aboutlink2, #portlink2, #musiclink2 {
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .menubar {
+        margin: -3.4em;
+        margin-bottom: 3.4em;
+        margin-left: 1em;
+    }
+
     .bio h1 {
         margin-left: 0.5em;
         margin-top: 0.2em;
@@ -369,5 +408,37 @@ img#IG {
     .bio__desc3 {
         margin-left: 1.8em;
         margin-right: 1.8em;
+    }
+}
+
+@media (max-width: 466px) {
+    #aboutlink2, #portlink2, #musiclink2 {
+        font-size: 15px;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .menubar {
+        margin: -3.3em;
+        margin-bottom: 3.3em;
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 390px) {
+    #aboutlink, #portlink, #musiclink {
+        font-size: 15px;
+        font-weight: lighter;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+}
+
+@media (max-width: 340px) {
+    #aboutlink, #portlink, #musiclink {
+        font-size: 15px;
+        font-weight: lighter;
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
