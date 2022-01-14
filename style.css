@@ -198,6 +198,8 @@ img#IG {
     text-align: center;
     margin: -3.5em;
     margin-bottom: 3.5em;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .menubar a {
@@ -367,6 +369,14 @@ img#IG {
     }
 }
 
+@media (max-width: 600px) {
+    .menubar {
+        margin: -3.4em;
+        margin-bottom: 3.4em;
+        margin-left: 4em;
+        margin-right: 0;
+    }
+}
 
 @media (max-width: 500px) {
     /* About Page Menu Bar */
@@ -379,7 +389,8 @@ img#IG {
     .menubar {
         margin: -3.4em;
         margin-bottom: 3.4em;
-        margin-left: 1em;
+        margin-left: 3em;
+        margin-right: 0;
     }
 
     .bio h1 {
@@ -426,11 +437,18 @@ img#IG {
         font-weight: lighter;
         margin-left: 1px;
         margin-right: 1px;
+        border: 1px solid white;
+        transition: 200ms all;
+    }
+
+    #aboutlink2:hover, #portlink2:hover, #musiclink2:hover {
+        border: 3px solid lightblue;
     }
     .menubar {
         margin: -3.3em;
         margin-bottom: 3.3em;
-        margin-left: 1em;
+        margin-left: 4em;
+        margin-right: 0;
     }
 }
 
