@@ -135,6 +135,7 @@ img.logo {
     transform: scale(1.1);
 }
 
+/* Home Page Menu Bar */
 #aboutlink, #portlink, #musiclink {
     color: white;
     font-size: 30px;
@@ -145,6 +146,7 @@ img.logo {
     transition: 200ms all;
 }
 
+/* Home Page Menu Bar */
 #aboutlink:hover, #portlink:hover, #musiclink:hover {
     color: lightblue;
     border: 5px solid lightblue;
@@ -155,6 +157,8 @@ img.logo {
     img#ghPIC {
         max-width: 200px;
     }
+
+    /* Home Page Menu Bar */
     #aboutlink, #portlink, #musiclink {
         font-size: 15px;
         border: 1px solid white;
@@ -261,6 +265,7 @@ img#IG {
     color: blue;
 }
 
+/* About Page Menu Bar */
 #aboutlink2, #portlink2, #musiclink2 {
     color: white;
     font-size: 30px;
@@ -271,6 +276,7 @@ img#IG {
     transition: 200ms all;
 }
 
+/* About Page Menu Bar */
 #aboutlink2:hover, #portlink2:hover, #musiclink2:hover {
     color: lightblue;
     border: 5px solid lightblue;
@@ -316,6 +322,7 @@ img#IG {
 }
 
 @media (max-width: 800px) {
+    /* About Page Menu Bar */
     #aboutlink2, #portlink2, #musiclink2 {
         font-size: 20px;
         font-weight: lighter;
@@ -362,6 +369,7 @@ img#IG {
 
 
 @media (max-width: 500px) {
+    /* About Page Menu Bar */
     #aboutlink2, #portlink2, #musiclink2 {
         font-size: 20px;
         font-weight: lighter;
@@ -412,6 +420,7 @@ img#IG {
 }
 
 @media (max-width: 466px) {
+    /* About Page Menu Bar */
     #aboutlink2, #portlink2, #musiclink2 {
         font-size: 15px;
         font-weight: lighter;
@@ -426,6 +435,7 @@ img#IG {
 }
 
 @media (max-width: 390px) {
+    /* Home Page Menu Bar */
     #aboutlink, #portlink, #musiclink {
         font-size: 15px;
         font-weight: lighter;
@@ -435,6 +445,7 @@ img#IG {
 }
 
 @media (max-width: 340px) {
+    /* Home Page Menu Bar */
     #aboutlink, #portlink, #musiclink {
         font-size: 15px;
         font-weight: lighter;
