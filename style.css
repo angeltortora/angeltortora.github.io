@@ -212,7 +212,7 @@ img#IG {
 }
 
 .bio__desc {
-    background-color: var(--clr-dark);
+    background-color: #252b44;
     margin-left: 16em;
     margin-right: 16em;
     padding: 1em 1em;
@@ -235,7 +235,7 @@ img#IG {
 .bio2 ul {
     margin-left: 16em;
     margin-right: 16em;
-    background-color: var(--clr-dark);
+    background-color: #252b44;
     border: 2px dotted white;
 }
 
@@ -249,10 +249,11 @@ img#IG {
 }
 
 .bio__desc3 {
-    background-color: var(--clr-dark);
+    background-color: #252b44;
     margin-left: 16em;
     margin-right: 16em;
     padding: 1em 1em;
+    margin-bottom: 6em;
 }
 
 #musicref {
@@ -288,7 +289,6 @@ img#IG {
     }
     
     .bio__desc {
-        background-color: var(--clr-dark);
         margin-left: 8em;
         margin-right: 8em;
     }
@@ -334,7 +334,6 @@ img#IG {
     }
     
     .bio__desc {
-        background-color: var(--clr-dark);
         margin-left: 6em;
         margin-right: 6em;
     }
@@ -395,7 +394,6 @@ img#IG {
     }
     
     .bio__desc {
-        background-color: var(--clr-dark);
         margin-left: 1.5em;
         margin-right: 1.8em;
     }
