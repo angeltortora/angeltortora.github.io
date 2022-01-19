@@ -495,33 +495,27 @@ img#IG {
     width: 70px;
     height: 70px;
     padding: 5px;
-}
-
-#SPOT {
-    float: left;
-}
-
-#BC {
-    float: left;
+    display: inline-block;
 }
 
 #YT {
-    float: left;
+    margin-right: 18.5em;
 }
 
 #spot__pic {
-    max-width: 300px;
+    max-width: 280px;
     border-radius: 50%;
-    margin-top: -12em;
+    margin-top: -14em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .music__pic {
-    padding-left: 18em;
+    padding-left: 16em;
 }
 
 .name__group {
+    display: block;
     text-align: center;
 }
 
@@ -532,4 +526,46 @@ img#IG {
 
 iframe {
     max-width: 600px;
+}
+
+@media (max-width: 800px) {
+    .links img {
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+    }
+
+    #spot__pic {
+        max-width: 200px;
+        margin-top: -12em;
+    }
+}
+
+@media (max-width: 600px) {
+    .music__pic {
+        padding-left: 13em;
+    }
+}
+
+@media (max-width: 530px) {
+    .links img {
+        padding: 2px;
+        float: left;
+    }
+    .music__pic {
+        position: absolute;
+        z-index: 0;
+        display: block;
+        text-align: center;
+    }
+    #spot__pic {
+        border-radius: 0;
+        display:none;
+    }
+}
+
+@media (max-width: 510px) {
+    #YT {
+        margin-right: 0;
+    }
 }
