@@ -487,14 +487,26 @@ img#IG {
 }
 
 .links {
-    max-width: 150px;
-    display: flex;
+    display: block;
     text-align: center;
 }
 
 .links img {
-    margin-left: 5em;
-    width: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+#SPOT {
+    float: left;
+}
+
+#BC {
+    float: left;
+}
+
+#YT {
+    float: left;
 }
 
 #spot__pic {
